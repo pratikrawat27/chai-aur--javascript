@@ -14,7 +14,7 @@ const user = {
 }
 
 function handleObj(anyObj){
-    return `Hello my name is ${anyObj.name} and I'm ${anyObj.age} year old.`;
+    return `Hello my name is ${anyObj.name} and I'm ${anyObj.age} year old.`; // we didn't know which obj will be passed that way use parameter.name not this.name
 }
 
 console.log(handleObj(user));
